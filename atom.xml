@@ -4,7 +4,7 @@
   <title><![CDATA[Alea jacta est!]]></title>
   <link href="http://fshianasan.github.io/atom.xml" rel="self"/>
   <link href="http://fshianasan.github.io/"/>
-  <updated>2015-08-25T11:10:43+09:00</updated>
+  <updated>2015-08-25T16:42:18+09:00</updated>
   <id>http://fshianasan.github.io/</id>
   <author>
     <name><![CDATA[fshianasan]]></name>
@@ -27,6 +27,64 @@
 <p>Hello Octopress</p>
 
 <p><strong>Hello Octopress</strong></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox に MacType を適用する方法。]]></title>
+    <link href="http://fshianasan.github.io/blog/2015/02/08/mactray-is-firefox/"/>
+    <updated>2015-02-08T19:47:49+09:00</updated>
+    <id>http://fshianasan.github.io/blog/2015/02/08/mactray-is-firefox</id>
+    <content type="html"><![CDATA[<p>ずっと前から Firefox派 の私ですが、個人的にずっと font のジャギが気になってました。</p>
+
+<p>で、何とかしようとして模索していましたがやっと MacTray を適用する方法が見つかったので記事にしときます。</p>
+
+<h2>前提</h2>
+
+<ul>
+<li>Firefox 36.0</li>
+<li>MacType 1.2012.1022.0</li>
+<li>MacTray 1.0.5.1529</li>
+</ul>
+
+
+<h2>解決方法</h2>
+
+<p>まず Firefox を開いてアドレスバーのところに <code>about:config</code> と打ち設定画面を開きます。</p>
+
+<p><img src="http://fshianasan.github.io/images/posts/screenshot.1423391892.png" alt="screenshot.1423391892.png" /></p>
+
+<p>検索バーに <code>direct2d</code> と打つと検索結果に <code>gfx.direct2d.disabled</code> という項目がありますので、
+その値を <code>true</code> と変えて Firefox を再起動すると MaxType が適用されてるのが確認できます。</p>
+
+<p>これで悩んでいた font のジャギ問題が直ってよかったっ</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[艦これの大型建造で今年の運勢を占う。]]></title>
+    <link href="http://fshianasan.github.io/blog/2015/02/08/kancolle-2015/"/>
+    <updated>2015-02-08T16:28:45+09:00</updated>
+    <id>http://fshianasan.github.io/blog/2015/02/08/kancolle-2015</id>
+    <content type="html"><![CDATA[<p>皆さん、お久しぶりです。<br/>
+前回の記事から丸1年を迎えてしまいました。</p>
+
+<p>いかにアウトプット作業をすっぽかしてたのかわかりますね…<br/>
+新年の抱負とかはまた後で書きます(この時点で1月が終わってしまいましたが)</p>
+
+<hr />
+
+<p>秘書官 龍驤改二、レシピ 4000/6000/6000/2000/20 の武蔵狙いで回してみると</p>
+
+<p><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/f/fshianasan/20150119/20150119025711.png" title="f:id:fshianasan:20150119025711p:plain" alt="f:id:fshianasan:20150119025711p:plain" /></p>
+
+<p><strong>や  り  ま  し  た</strong></p>
+
+<p>やっと念願の武蔵が出てくれました！<br/>
+この時は嬉しくて声を出してしまった記憶がありますね。
+武蔵を出すという 目標(一応武蔵がでるまでは艦これは続けようと思っていた。) をやっと達成できたので、次はケッコンカッコカリをするまでは提督業を続けます。</p>
+
+<p>今年は良くなりそう？</p>
 ]]></content>
   </entry>
   

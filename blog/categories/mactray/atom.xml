@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: mactray | Alea jacta est!]]></title>
+  <link href="http://fshianasan.github.io/blog/categories/mactray/atom.xml" rel="self"/>
+  <link href="http://fshianasan.github.io/"/>
+  <updated>2015-08-25T16:42:18+09:00</updated>
+  <id>http://fshianasan.github.io/</id>
+  <author>
+    <name><![CDATA[fshianasan]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox に MacType を適用する方法。]]></title>
+    <link href="http://fshianasan.github.io/blog/2015/02/08/mactray-is-firefox/"/>
+    <updated>2015-02-08T19:47:49+09:00</updated>
+    <id>http://fshianasan.github.io/blog/2015/02/08/mactray-is-firefox</id>
+    <content type="html"><![CDATA[<p>ずっと前から Firefox派 の私ですが、個人的にずっと font のジャギが気になってました。</p>
+
+<p>で、何とかしようとして模索していましたがやっと MacTray を適用する方法が見つかったので記事にしときます。</p>
+
+<h2>前提</h2>
+
+<ul>
+<li>Firefox 36.0</li>
+<li>MacType 1.2012.1022.0</li>
+<li>MacTray 1.0.5.1529</li>
+</ul>
+
+
+<h2>解決方法</h2>
+
+<p>まず Firefox を開いてアドレスバーのところに <code>about:config</code> と打ち設定画面を開きます。</p>
+
+<p><img src="/images/posts/screenshot.1423391892.png" alt="screenshot.1423391892.png" /></p>
+
+<p>検索バーに <code>direct2d</code> と打つと検索結果に <code>gfx.direct2d.disabled</code> という項目がありますので、
+その値を <code>true</code> と変えて Firefox を再起動すると MaxType が適用されてるのが確認できます。</p>
+
+<p>これで悩んでいた font のジャギ問題が直ってよかったっ</p>
+]]></content>
+  </entry>
+  
+</feed>

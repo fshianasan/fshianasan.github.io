@@ -3,11 +3,12 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Hello Octopress! | Alea jacta est!</title>
+	<title>Firefox に MacType を適用する方法。 | Alea jacta est!</title>
 
 	<meta name="author" content="fshianasan"> 
 	
-	<meta name="description" content="Hello Octopress Hello Octopress Hello Octopress Hello Octopress Hello Octopress Tweet "> <meta name="keywords" content="">
+	<meta name="description" content="ずっと前から Firefox派 の私ですが、個人的にずっと font のジャギが気になってました。 で、何とかしようとして模索していましたがやっと MacTray を適用する方法が見つかったので記事にしときます。 前提 Firefox 36.0
+MacType 1.2012.1022.0 &hellip;"> <meta name="keywords" content="">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -35,7 +36,7 @@
 </header>
 
 	<div id="content" class="inner"><article class="post">
-	<h2 class="title">Hello Octopress!</h2>
+	<h2 class="title">Firefox に MacType を適用する方法。</h2>
 	<div class="meta">
 		<div class="date">
 
@@ -50,17 +51,31 @@
 
 
 
-<time datetime="2015-08-25T11:04:13+09:00" pubdate data-updated="true">2015-08-25 +0900</time></div>
+<time datetime="2015-02-08T19:47:49+09:00" pubdate data-updated="true">2015-02-08 +0900</time></div>
 	</div>
-	<div class="entry-content"><h1>Hello Octopress</h1>
+	<div class="entry-content"><p>ずっと前から Firefox派 の私ですが、個人的にずっと font のジャギが気になってました。</p>
 
-<h2>Hello Octopress</h2>
+<p>で、何とかしようとして模索していましたがやっと MacTray を適用する方法が見つかったので記事にしときます。</p>
 
-<h3>Hello Octopress</h3>
+<h2>前提</h2>
 
-<p>Hello Octopress</p>
+<ul>
+<li>Firefox 36.0</li>
+<li>MacType 1.2012.1022.0</li>
+<li>MacTray 1.0.5.1529</li>
+</ul>
 
-<p><strong>Hello Octopress</strong></p>
+
+<h2>解決方法</h2>
+
+<p>まず Firefox を開いてアドレスバーのところに <code>about:config</code> と打ち設定画面を開きます。</p>
+
+<p><img src="/images/posts/screenshot.1423391892.png" alt="screenshot.1423391892.png" /></p>
+
+<p>検索バーに <code>direct2d</code> と打つと検索結果に <code>gfx.direct2d.disabled</code> という項目がありますので、
+その値を <code>true</code> と変えて Firefox を再起動すると MaxType が適用されてるのが確認できます。</p>
+
+<p>これで悩んでいた font のジャギ問題が直ってよかったっ</p>
 </div>
 
 
