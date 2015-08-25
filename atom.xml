@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Alea jacta est!]]></title>
+  <link href="http://fshianasan.github.io/atom.xml" rel="self"/>
+  <link href="http://fshianasan.github.io/"/>
+  <updated>2015-08-25T11:10:43+09:00</updated>
+  <id>http://fshianasan.github.io/</id>
+  <author>
+    <name><![CDATA[fshianasan]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello Octopress!]]></title>
+    <link href="http://fshianasan.github.io/blog/2015/08/25/hello-octopress/"/>
+    <updated>2015-08-25T11:04:13+09:00</updated>
+    <id>http://fshianasan.github.io/blog/2015/08/25/hello-octopress</id>
+    <content type="html"><![CDATA[<h1>Hello Octopress</h1>
+
+<h2>Hello Octopress</h2>
+
+<h3>Hello Octopress</h3>
+
+<p>Hello Octopress</p>
+
+<p><strong>Hello Octopress</strong></p>
+]]></content>
+  </entry>
+  
+</feed>
