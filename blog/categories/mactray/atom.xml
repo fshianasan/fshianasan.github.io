@@ -4,7 +4,7 @@
   <title><![CDATA[Category: mactray | Alea jacta est!]]></title>
   <link href="http://fshianasan.github.io/blog/categories/mactray/atom.xml" rel="self"/>
   <link href="http://fshianasan.github.io/"/>
-  <updated>2015-08-26T16:33:08+09:00</updated>
+  <updated>2015-08-27T15:45:34+09:00</updated>
   <id>http://fshianasan.github.io/</id>
   <author>
     <name><![CDATA[fshianasan]]></name>
@@ -26,16 +26,17 @@
 
 <ul>
 <li>Firefox 36.0</li>
-<li>MacType 1.2012.1022.0</li>
 <li>MacTray 1.0.5.1529</li>
 </ul>
 
 
-<h2>解決方法</h2>
+<h2>適用方法</h2>
+
+<p><img src="https://dl.dropbox.com/s/2emv9z8s0vgi9ez/screenshot.1440655067.png?dl=0" alt="screenshot.1440655067.png" /></p>
 
 <p>まず Firefox を開いてアドレスバーのところに <code>about:config</code> と打ち設定画面を開きます。</p>
 
-<p><img src="/images/posts/screenshot.1423391892.png" alt="screenshot.1423391892.png" /></p>
+<p><img src="https://dl.dropbox.com/s/66ev6tto5zsajri/screenshot.1440655103.png" alt="screenshot.1440655103.png" /></p>
 
 <p>検索バーに <code>direct2d</code> と打つと検索結果に <code>gfx.direct2d.disabled</code> という項目がありますので、
 その値を <code>true</code> と変えて Firefox を再起動すると MaxType が適用されてるのが確認できます。</p>
