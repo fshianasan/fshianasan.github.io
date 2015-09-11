@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://fshianasan.github.io/blog/2015/09/12/aigis-for-nexus7/</loc>
+    <lastmod>2015-09-12T01:05:29+09:00</lastmod>
+  </url>
+  <url>
     <loc>http://fshianasan.github.io/blog/2015/08/26/kancolle-event-2015-summer/</loc>
     <lastmod>2015-08-26T19:31:51+09:00</lastmod>
   </url>
@@ -39,5 +43,14 @@
   </url>
   <url>
     <loc>http://fshianasan.github.io/blog/categories/dialy/</loc>
+  </url>
+  <url>
+    <loc>http://fshianasan.github.io/blog/categories/nexus7/</loc>
+  </url>
+  <url>
+    <loc>http://fshianasan.github.io/blog/categories/aigis/</loc>
+  </url>
+  <url>
+    <loc>http://fshianasan.github.io/blog/categories/dmm/</loc>
   </url>
 </urlset>
